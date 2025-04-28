@@ -13,7 +13,9 @@ import { Logo } from './Logo'
 import { NavItem } from './NavItem'
 import { UsedSpaceWidget } from './UsedSpaceWidget'
 import { Profile } from './Profile'
-import { InputControl, InputPrefix, InputRoot } from '../input'
+import { InputRoot } from '../Input/InputRoot'
+import { InputPrefix } from '../Input/InputPrefix'
+import { InputControl } from '../Input/InputControl'
 
 export function Sidebar() {
   return (
